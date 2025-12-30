@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="w-333.75 h-20.5 mx-auto mt-6 outline-1 outline-black rounded-[20px] px-8 flex items-center justify-between shadow-sm">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <img src="/assets/LogoAR.png" alt="Brand Logo" class="h-10 w-auto" />
+      </div>
+
+      <!-- List -->
+      <nav class="absolute left-1/2 transform -translate-x-[55%] flex items-center gap-16">
+        <a href="#" class="text-[43px] font-bold text-gray-900 hover:text-gray-600 transition-colors"> PRODUCT </a>
+        <a href="#" class="text-[43px] font-bold text-gray-900 hover:text-gray-600 transition-colors"> ABOUT </a>
+        <a href="#" class="text-[43px] font-bold text-gray-900 hover:text-gray-600 transition-colors"> SIGN UP </a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <!-- Search Box -->
+        <div class="w-45.5 h-12.5 bg-[#F5F5F5] rounded-full flex items-center px-5 gap-2">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input type="text" placeholder="Search" class="w-full text-[20px] bg-transparent outline-none text-sm text-gray-700 placeholder:text-gray-400" />
+        </div>
+
+        <!-- Icon -->
+        <button class="w-6 h-6 flex items-center justify-center hover:opacity-70 transition-opacity">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+        </button>
+
+        <button class="w-6 h-6 flex items-center justify-center hover:opacity-70 transition-opacity">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <!-- Navbar end -->
+    <!-- Hero start -->
+    <section class="hero-section py-8">
+      <div class="hero-container mx-auto">
+        <div class="hero-grid">
+          <!-- LEFT GRID -->
+          <div class="hero-left">
+            <div class="hero-item hero-left-top">
+              <img src="/assets/L1.png" alt="l1" />
+              <div class="hero-overlay">
+                <h2 class="text-[20px] font-bold">
+                  LOOKING<br />
+                  STYLISH BUT<br />
+                  STILL DOWN TO <br />
+                  EARTH
+                </h2>
+              </div>
+            </div>
+
+            <div class="hero-left-bottom">
+              <div class="hero-item">
+                <div class="hero-item placeholder"></div>
+              </div>
+              <div class="hero-item">
+                <div class="hero-item placeholder"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT GRID -->
+          <div class="hero-item hero-right">
+            <img src="/assets/R1.png" alt="r1" />
+            <div class="btn-overlay">
+              <button class="btn-scroll bg-white w-75 h-17.5 rounded-4xl flex items-center justify-between px-2 gap-3">
+                <span class="font-semibold text-[20px]">LEARN MORE</span>
+                <div class="w-15.5 h-15.5 bg-black rounded-full flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 text-white" fill="currentColor">
+                    <path
+                      d="M11 16.175V5q0-.425.288-.712T12 4t.713.288T13 5v11.175l4.9-4.9q.3-.3.7-.288t.7.313q.275.3.287.7t-.287.7l-6.6 6.6q-.15.15-.325.213t-.375.062t-.375-.062t-.325-.213l-6.6-6.6q-.275-.275-.275-.687T4.7 11.3q.3-.3.713-.3t.712.3z"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero end -->
+  </body>
+</html>
